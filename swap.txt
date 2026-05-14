@@ -33,6 +33,7 @@ Pietro Guilherme de Souza
 -Interações
 -Alterando os dados dos cards
 -Adicionar a funcionalidade (javascript) dos botões
+-Adicionar página produtos, adicionar os cards com as informações dos produtos
 
 
 Link github

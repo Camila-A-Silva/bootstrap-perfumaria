@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <!-- Bootstrap CSS via CDN CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
+    <!-- SweetAlert2 CSS via CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.18.0/dist/sweetalert2.min.css">
+    
+    <!-- SweetAlert2 JavaScript via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.18.0/dist/sweetalert2.all.min.js" defer></script>
+    
+    <!-- Bootstrap JS via CDN JS --> 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous" defer></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -19,8 +26,9 @@
     <script src="./assets/js/script.js" defer></script>
 
 </head>
+
 <body>
-    
+
     <!-- CABEÇALHO -->
     <header>
 
@@ -35,23 +43,94 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Principal</a>
+                            <a class="nav-link" aria-current="page" href="./index.html">Principal</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="./produto.html">Produtos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Ajuda</a>
-                        </li>
+                        <a class="nav-item">
+                            <button id="btn-contato" class="nav-link">Contato</button>
+                        </a>
                     </ul>
-                </div>
-                <div class="card-body text-center">
-                    <button id="alertInput" class="btn btn-dark">Exibir Prompt</button>
                 </div>
             </div>
         </nav>
 
     </header>
-    
+
+    <!-- CARDS PERFUMES -->
+    <section class="cards-container">
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/35806942/pexels-photo-35806942.jpeg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> L’Orangerie</h5>
+                <p class="card-text">Uma explosão de frescor e energia. Esta fragrância combina o
+                    vibrante da laranja, trazendo a sensação deliciosa de um dia ensolarado.
+                    Perfeita para renovar os sentidos a qualquer h­­­­­ora.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/7247803/pexels-photo-7247803.jpeg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ouro Rose</h5>
+                <p class="card-text">É romântico, delicado e muito arejado. Uma mistura de pétalas macias com um
+                    toque levemente esverdeado. Para quem gosta de cheiro de flores frescas.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/31842240/pexels-photo-31842240.jpeg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> L'Empire</h5>
+                <p class="card-text">Empoderamento e sedução. É um cheiro denso. Para usar com um look impecável.
+                    Forte, decidido e muito chique. Sofisticado da baunilha licorosa e madeiras nobres.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/36834224/pexels-photo-36834224.jpeg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Pure Blue</h5>
+                <p class="card-text">Uma combinação de notas marinhas. Com um toque cítrico de limão siciliano e a
+                    suavidade. Para o homem que prefere a discrição ao excesso. Perfeito para o trabalho, reuniões
+                    de negócios.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/30970927/pexels-photo-30970927.jpeg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Black Oud</h5>
+                <p class="card-text">Uma combinação rica de couro nobre. Com um toque de canela e pimenta. No fundo, ele
+                    traz um amadeirado profundo que dura horas na pele.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/12562773/pexels-photo-12562773.jpeg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Urban Cozy</h5>
+                <p class="card-text">É um cheiro quente e aconchegante. Ideal para dias de inverno, encontros românticos
+                    ou momentos de lazer em lugares elegantes. Uma misturada com a suavidade da baunilha e madeira
+                    cremosa.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+    </section>
+
+
 </body>
+
 </html>
