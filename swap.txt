@@ -1,0 +1,24 @@
+Camila Alves Silva
+-Classes Bootstrap
+-Componentes
+-Responsividade
+-Layout
+
+
+Helena Silveira Rosa
+-Selecionar todas as imagens dos produtos(perfumes)
+-criar as descriçioes e nomes nos perfumes
+- 
+
+
+
+Lorena Barbosa Gonçalves
+-Estrutura semântica do HTML
+-HTML navbar
+-Organização das seções
+-Adicionar containers
+
+Pietro Guilherme de Souza 
+-Captura dos Eventos
+-SweetAlerts
+-Interações
