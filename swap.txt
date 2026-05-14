@@ -3,12 +3,17 @@ Camila Alves Silva
 -Componentes
 -Responsividade
 -Layout
+-Adicionar os botões
 
 
 Helena Silveira Rosa
 -Selecionar todas as imagens dos produtos(perfumes)
--criar as descriçioes e nomes nos perfumes
-- 
+-Criar as descriçioes e nomes nos perfumes
+-Criar a logo do site 
+- Organização BEM
+- Padronização
+- Revisão
+- Ajustes finais
 
 
 
@@ -17,8 +22,18 @@ Lorena Barbosa Gonçalves
 -HTML navbar
 -Organização das seções
 -Adicionar containers
+-HML banner
+-Adicionar o css dos cards, banner e header
+
+
 
 Pietro Guilherme de Souza 
 -Captura dos Eventos
 -SweetAlerts
 -Interações
+-Alterando os dados dos cards
+-Adicionar a funcionalidade (javascript) dos botões
+
+
+Link github
+https://github.com/Camila-A-Silva/bootstrap-perfumaria.git
